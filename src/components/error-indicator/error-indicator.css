@@ -1,0 +1,16 @@
+.alert-warning {
+  padding: 10px 0;
+  max-width: 40%;
+  min-width: 300px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+ img {
+  margin-bottom: 1rem;
+  width: 100px;
+  height: 100px;
+}

@@ -1,0 +1,10 @@
+.navbar {
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-item {
+  color: #fff;
+  padding-right: 1rem;
+}

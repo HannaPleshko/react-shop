@@ -1,0 +1,39 @@
+.search-container {
+  color: #5a5a5a;
+  background-color: #f8f9fa;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0.5rem 1rem;
+  font-family: "Montserrat", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+.filter {
+    display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+.filter li {
+  color: #888;
+}
+.filter a {
+  display: block;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+.filter a:hover, 
+.filter a:active {
+  background-color:#eceeef
+}
